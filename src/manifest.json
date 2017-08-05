@@ -4,7 +4,7 @@
   "short_name": "Sites Redirector",
   "author": "Michael Giuffrida",
   "version": "0.1",
-  "description": "Redirects chromium.org Sites pages to a canonical URL, ensuring you remain signed in.",
+  "description": "Redirects chromium.org Sites pages to the canonical URL, ensuring you remain signed in.",
   "background": {
     "scripts": ["background.js"],
     "persistent": true
@@ -12,7 +12,7 @@
   "permissions": [
     "webRequest",
     "webRequestBlocking",
-    "*://sites.google.com/a/chromium.org/dev/*",
-    "*://dev.chromium.org/*"
+    "*://dev.chromium.org/*",
+    "*://www.chromium.org/*"
   ]
 }

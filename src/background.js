@@ -10,9 +10,11 @@ else
   info = function() {};
 
 // URLs to redirect, starting with the domain name. No trailing slash.
-const alternatives = ['sites.google.com/a/chromium.org/dev',
+const alternatives = ['www.chromium.org',
                       'dev.chromium.org'];
-const canonical = 'https://www.chromium.org';
+
+// The canonical site that allows sign-in.
+const canonical = 'https://sites.google.com/a/chromium.org/dev';
 
 function buildRegex() {
   let reString = 'https?://';
